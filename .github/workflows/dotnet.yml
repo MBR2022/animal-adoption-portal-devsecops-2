@@ -46,7 +46,7 @@ jobs:
     if: github.event_name == 'push' && github.ref == 'refs/heads/main'
 
     env:
-      WEB_APP_NAME: animal-adoption-portal-devsecops-2 
+      WEB_APP_NAME: app-azure-sprint-devsecops-mbr2022 
     
     steps:
     - name: Download build artifact
